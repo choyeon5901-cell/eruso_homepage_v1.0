@@ -682,3 +682,35 @@ eruso/
 ---
 
 Made with 💠 by (주)이루소 | **AI 기반 스마트 약배송 시스템**
+
+
+### 새 파일을 다시 추가해서 올리기
+git add index.html
+git commit -m "Deploy new eRUM index.html"
+git push origin main
+
+git add css/style.css
+git commit -m "Deploy new eRUM index.html css/style.css"
+git push origin main
+
+git add images/about-drone-final-logo_01.jpg
+git commit -m "Deploy new eruso about-drone-final-logo_01.jpg"
+git push origin main
+
+
+
+# 1. 서버 내용을 무시하고 내 PC 내용을 강제로 올리기 (가장 확실한 방법)
+git push origin main --force
+
+
+
+### 전체 파일 업로드 및 배포 (최종)
+PowerShell
+# 1. 모든 변경 사항과 새 파일을 목록에 담기 (점 '.' 하나를 꼭 찍어주세요)
+git add .
+
+# 2. 이제 기록하기
+git commit -m "Complete deployment: images, videos, and CNAME"
+
+# 3. 서버로 전송 (강제 업데이트)
+git push origin main --force
