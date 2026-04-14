@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 32" width="130" height="32">
+  <!-- 파란색 기하학적 아이콘 (왼쪽) -->
+  <g fill="#007BFF">
+    <path d="M8 8 L16 8 L12 16 L20 16 L8 24 L12 16 L4 16 Z"/>
+  </g>
+  
+  <!-- (주)이루소 텍스트 (오른쪽) -->
+  <text x="28" y="21" font-family="'Noto Sans KR', sans-serif" font-size="14" font-weight="700" fill="#007BFF">(주)이루소</text>
+</svg>
